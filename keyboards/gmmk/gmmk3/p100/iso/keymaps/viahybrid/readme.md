@@ -21,9 +21,6 @@ Run `sudo udevadm control --reload-rules`, reconnect the keyboard, then authoriz
 it again in VIA. This rule grants the active local user access to the
 configuration interface.
 
-Press **Fn+ScrLk** to reboot into the USB bootloader for flashing. This binding
-is on the function layer and can also be changed in VIA.
-
 The hybrid transport accepts 32-byte VIA messages and 64-byte OpenRGB messages,
 and replies at the corresponding size. Fn+O retains the original mode switch
 for 64-byte messages, for hosts that pad VIA messages to that size. The default
